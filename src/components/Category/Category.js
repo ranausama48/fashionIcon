@@ -16,6 +16,10 @@ import column7 from '../Images/column7.jpg'
 import column4 from '../Images/column4.png'
 import column6 from '../Images/column6.jpg'
 import column5 from '../Images/column5.jpg'
+
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
+import Rotate from 'react-reveal/Rotate';
 class Category extends Component {
   render() {
     return (
@@ -29,11 +33,17 @@ class Category extends Component {
                         <Col  xs="12" lg="6" md="12" sm="12"  style={{paddingTop:'40px'}}>
                             <Row>
                                     <Col lg="6" md="6" sm="6" xs="6" style={{paddingRight:'0px'}}>
-                                        <img className="s-img" src={gucci2}  alt="gucci2" />
-                                        <img className="s-img" src={hollister2} alt="hollister2"/>
+                                        <Roll left>
+                                            <img className="s-img" src={gucci2}  alt="gucci2" />
+                                        </Roll>
+                                        <Bounce top>
+                                            <img className="s-img" src={hollister2} alt="hollister2"/>
+                                        </Bounce>
                                     </Col>
                                     <Col lg="6" md="6" sm="6" xs="6" style={{paddingLeft:'0px'}}>
-                                        <img className="t-img-responsive" src={sec1} alt="sec1" />
+                                    <Bounce top>
+                                            <img className="t-img-responsive" src={sec1} alt="sec1" />
+                                        </Bounce>
                                     </Col>
                                     
                             </Row>
@@ -46,11 +56,17 @@ class Category extends Component {
                        <Col xs="12" lg="6" md="12" sm="12" style={{paddingTop:'40px'}}>
                             <Row>
                                 <Col lg="6" md="6" sm="6" xs="6" style={{paddingRight:'0px'}}>
+                                <Roll left>
                                     <img className="s-img" src={column12}  alt="gucci2" />
+                                    </Roll>
+                                    <Bounce top>
                                     <img className="s-img" src={column11} alt="hollister2"/>
+                                    </Bounce>
                                 </Col>
                                 <Col lg="6" md="6" sm="6" xs="6" style={{paddingLeft:'0px'}}>
+                                <Bounce top>
                                     <img className="t-img-responsive" src={sec2} alt="sec1"  />
+                                </Bounce>
                                 </Col>
                             </Row>
                        </Col>
@@ -60,11 +76,17 @@ class Category extends Component {
                     <Col xs="12" lg="6" md="12" sm="12" style={{paddingTop:'40px'}}>
                             <Row>
                                 <Col lg="6" md="6" sm="6" xs="6" style={{paddingRight:'0px'}}>
-                                    <img className="s-img" src={column8}  alt="gucci2" />
-                                    <img className="s-img" src={column9} alt="hollister2"/>
+                                    <Roll left>
+                                        <img className="s-img" src={column8}  alt="gucci2" />
+                                    </Roll>
+                                    <Bounce top>
+                                        <img className="s-img" src={column9} alt="hollister2"/>
+                                    </Bounce>
                                 </Col>
                                 <Col lg="6" md="6" sm="6" xs="6" style={{paddingLeft:'0px'}}>
+                                <Bounce top>
                                     <img className="t-img-responsive" src={column7} alt="sec1" />
+                                    </Bounce>
                                 </Col>
                             </Row>
                         </Col>
@@ -72,11 +94,17 @@ class Category extends Component {
                        <Col xs="12" lg="6" md="12" sm="12" style={{paddingTop:'40px'}}>
                        <Row>
                                 <Col lg="6" md="6" sm="6" xs="6" style={{paddingRight:'0px'}}>
-                                    <img className="s-img" src={column4}  alt="gucci2" />
-                                    <img className="s-img" src={column6} alt="hollister2"/>
+                                    <Roll left>
+                                        <img className="s-img" src={column4}  alt="gucci2" />
+                                    </Roll>
+                                    <Bounce top>
+                                        <img className="s-img" src={column6} alt="hollister2"/>
+                                    </Bounce>
                                 </Col>
                                 <Col lg="6" md="6" sm="6" xs="6" style={{paddingLeft:'0px'}}>
-                                    <img className="t-img-responsive" src={column5} alt="sec1" />
+                                    <Bounce top>
+                                        <img className="t-img-responsive" src={column5} alt="sec1" />
+                                    </Bounce>
                                 </Col>
                             </Row>
                        </Col>

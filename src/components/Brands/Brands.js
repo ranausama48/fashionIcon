@@ -9,6 +9,9 @@ import ralph_lauren3 from '../Images/ralph_lauren3.jpg'
 import gucci2 from '../Images/gucci2.jpg'
 import hollister3 from '../Images/hollister3.jpg'
 import { SSL_OP_NO_TLSv1_1 } from 'constants';
+import Zoom from 'react-reveal/Zoom';
+import Rotate from 'react-reveal/Rotate';
+import Slide from 'react-reveal/Slide';
 
 class Brands extends Component {
   render() {
@@ -16,25 +19,30 @@ class Brands extends Component {
         <div>
             <div>
                 <Jumbotron style={{margin:'0px'}}>
+                <Zoom bottom>
                     <div className="brand_tiitle">
                         <h3 className="display-3">Brands</h3>
                     </div>
+                    </Zoom>
                     <div className="container">
                         <Row >
                             <Col  xs="12" lg="3" md="6" sm="12" style={{possition:'relative',marginBottom:'20px'}}>
                                <div className="g3">
-                               <img src={levis1} width="100%" height="300px"/>
+                               <Rotate top left><img src={levis1} width="100%" height="300px"/></Rotate>
+                              
                                     <div className="g3_more" style={{padding:'0px'}}>
+                                    
                                        <h2 className="text-center" style={{margin:'20px 0px'}}> LEVI's</h2>
                                         <p className="text-center paragraph_text" >Round ‘Em Up: A History of Levi’s® in Hollywood Westerns</p>
                                         <p className="text-center paragraph_text">As of 2019, the vast majority of Levi's are made overseas in a number of developing countries, such as India, Sri Lanka, Vietnam, and Indonesia, due to the availability of cheap, easy labor and raw materials.</p>
                                     </div>
+                                   
                                </div>
                                 
                             </Col>
                             <Col  xs="12" lg="3" md="6" sm="12" style={{possition:'relative',marginBottom:'20px'}}>
                                <div className="g3">
-                                    <img src={ralph_lauren3} width="100%" height="300px"/>
+                                    <Rotate top left><img src={ralph_lauren3} width="100%" height="300px"/></Rotate>
                                     <div className="g3_more" style={{padding:'0px'}}>
                                         <h2 className="text-center" style={{margin:'20px 0px'}}>RALPH LAUREN</h2>
                                         {/* <p  className="text-center paragraph_text">Ralph Lauren Corporation is an American fashion company producing products ranging from the mid-range to the luxury segments.</p> */}
@@ -46,7 +54,7 @@ class Brands extends Component {
                             </Col>
                             <Col  xs="12" lg="3" md="6" sm="12" style={{possition:'relative',marginBottom:'20px'}}>
                                <div className="g3">
-                                    <img src={gucci2} width="100%" height="300px"/>
+                                    <Rotate top left><img src={gucci2} width="100%" height="300px"/></Rotate>
                                     <div className="g3_more" style={{padding:'0px'}}>
                                         <h2 className="text-center" style={{margin:'20px 0px'}}>GUCCI</h2>
                                         <p className="text-center paragraph_text">Gucci is part of the Kering Group. A global Luxury group, Kering manages the development of a series of renowned Houses in Fashion, Leather Goods, Jewelry and Watches</p>
@@ -56,7 +64,7 @@ class Brands extends Component {
                             </Col>
                             <Col  xs="12" lg="3" md="6" sm="12" style={{possition:'relative',marginBottom:'20px'}}>
                                 <div className="g3">
-                                    <img src={hollister3} width="100%" height="300px"/>
+                                    <Rotate top left><img src={hollister3} width="100%" height="300px"/></Rotate>
                                     <div className="g3_more" style={{padding:'0px'}}>
                                         <h2 className="text-center" style={{margin:'20px 0px'}}>HOLLISTER</h2>
                                         {/* <p className="text-center paragraph_text">New hoodies, sweatshirts, sweaters, long-sleeve tees & more—everything you need to layer up.</p> */}
