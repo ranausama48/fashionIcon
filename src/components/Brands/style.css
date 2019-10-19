@@ -1,0 +1,48 @@
+.display-3{
+display: flex;
+justify-content: center;
+}
+.g3{
+	position: relative;
+    
+}
+/* .g2:hover .g2_more{
+    transition: all 2s; 
+    transform: scale(0);
+	
+} */
+.g3_more{
+  
+    transition: all 1s; 
+    transform: scale(0);
+    position: absolute;
+    top: 0px;
+    color: white;
+    font-weight: 1000;
+    height: 100%;
+    width: 100% !important;
+}
+.g3:hover .g3_more{
+    transition: all 0.5s; 
+    transform: scale(1);
+    /* transform: scale(1); */
+    position: absolute;
+	top: 0px;
+	background-color: grey;
+	padding: 60px 50px 60px 50px;
+	 
+    height: 100%;
+    width: 100% !important;
+    display: block;
+}
+.paragraph_text{
+    font-weight: 300;
+    font-size: 15px;
+
+}
+.brand_tiitle{
+    margin:50px 0px 100px 0px;
+    padding:50px;
+    background-color:white;
+    box-shadow: 10px 10px 10px 10px grey;
+}

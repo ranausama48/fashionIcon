@@ -1,0 +1,29 @@
+.main{
+    background:url('https://image.freepik.com/free-photo/bearded-man-drinking-in-a-bar_1303-9376.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  
+  
+    background-position: top center;
+    }
+    .bg-light{
+background-color: none !important
+    }
+
+   
+        .caption-slide{
+        height: 200px;
+        width: 200px;
+        }
+        @media (min-width: 650px ) {
+            .main {
+                background-position: center center;
+            }
+        
+            
+        }
+       
+        
+    
