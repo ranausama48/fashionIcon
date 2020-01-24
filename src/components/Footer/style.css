@@ -1,6 +1,31 @@
-.footer_icons{
-    font-size: 30px;
-    margin-right: 15px;
-    color: white;
-    
+.footer_icons {
+  /* font-size: 30px;*/
+  /* margin-right: 15px; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_icons svg {
+  width: 20px;
+  height: 20px;
+}
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.a-social_icon {
+  width: 35px;
+  height: 35px;
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+  margin: 0px 5px;
+}
+.a-social_icon:hover {
+  transform: rotate(360deg);
+  transition: transform 1s;
+  color: black;
 }
