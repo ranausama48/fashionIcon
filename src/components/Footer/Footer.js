@@ -18,50 +18,44 @@ class Footer extends Component {
             justifyContent: "center"
           }}
         >
-          <Bounce left>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/usamaasif48/"
-              className="a-social_icon"
-            >
-              <span className="footer_icons">
-                <FaLinkedinIn />
-              </span>
-            </a>
-          </Bounce>
-          <Bounce left>
-            <a
-              target="_blank"
-              href="https://github.com/ranausama48"
-              className="a-social_icon"
-            >
-              <span className="footer_icons">
-                <FaGithub />
-              </span>
-            </a>
-          </Bounce>
-          <Bounce left>
-            <a
-              target="_blank"
-              href="https://twitter.com/ranausamaasif"
-              className="a-social_icon"
-            >
-              <span className="footer_icons">
-                <FaTwitter />
-              </span>
-            </a>
-          </Bounce>
-          <Bounce left>
-            <a
-              target="_blank"
-              href="https://www.facebook.com/"
-              className="a-social_icon"
-            >
-              <span className="footer_icons">
-                <FaFacebookF />
-              </span>
-            </a>
-          </Bounce>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/usamaasif48/"
+            className="a-social_icon"
+          >
+            <span className="footer_icons">
+              <FaLinkedinIn />
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/ranausama48"
+            className="a-social_icon"
+          >
+            <span className="footer_icons">
+              <FaGithub />
+            </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://twitter.com/ranausamaasif"
+            className="a-social_icon"
+          >
+            <span className="footer_icons">
+              <FaTwitter />
+            </span>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://www.facebook.com/"
+            className="a-social_icon"
+          >
+            <span className="footer_icons">
+              <FaFacebookF />
+            </span>
+          </a>
         </div>
         <div>
           <p
